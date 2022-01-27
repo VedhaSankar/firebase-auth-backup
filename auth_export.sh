@@ -1,5 +1,5 @@
 #!/bin/bash
 
-PROJECT_ID=modern-diode-339415
+PROJECT_ID=dtr-sandbox
 
-firebase auth:export data.csv --project $PROJECT_ID
+firebase auth:export users.json --project $PROJECT_ID
